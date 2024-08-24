@@ -1,23 +1,22 @@
 import { useState } from 'react'
 import './App.css'
-import RightSidebar from './components/rightsideBar'
-import Tomorrow from './components/tomorrow'
-import Searchbar from './components/seachbar'
+import Rightsidebar from './components/rightsidebar'
+/*import Tomorrow from './components/tomorrow'
+import Searchbar from './components/seachbar'*/
+import Sidebar from './components/sidebar'
 
 function App() {
   
 
   return (
     <>
-    <Searchbar/>
-    <div>
-    <h1>Your City</h1>
-    <p>Chance of Rain</p>
-    <h2>0*C</h2>
-    </div>
-    <Tomorrow/>
-    <RightSidebar/>
     <Sidebar/>
+    <div className='mainside text-white pt-6 pl-6'>
+      <h1 className='Heading '>Your City</h1>
+      <p>Chance of Rain: 0*C</p>
+      <h2 className='tempheading pt-6'>0*C</h2>
+    </div>
+    <Rightsidebar/>
     
     </>
   )

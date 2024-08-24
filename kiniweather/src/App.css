@@ -1,0 +1,42 @@
+.mainside {
+
+}
+
+.Heading {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.tempheading {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.rightsidebar {
+    background-color: #171c32;
+    position: fixed; 
+    right: 0;       
+    top: 0;         
+    width: 30%;   
+    height: 100%;   
+    padding: 20px;  
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+.rightsidediv {
+    height: 15%;
+    border-bottom: 3px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #171c32;
+    position: fixed; 
+    left: 0;       
+    top: 0;         
+    width: 20%;   
+    height: 100%;   
+    padding: 20px;  
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);  
+}
