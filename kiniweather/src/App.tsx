@@ -19,9 +19,7 @@ function App() {
     <>
       <BurgerIcon/>
       <Sidebar/>
-
       <div className='mainside text-white pt-6'>
-
         <Searchbar onSearch={handlesearch}/>
         <h1 className='Heading '>Your City</h1>
         <p className='text-[#AEB5CD]'>Chance of Rain: 0*C</p>
@@ -30,9 +28,7 @@ function App() {
         <AirConditions/>
         <Rightsidebar2/>
       </div>
-
       <Rightsidebar/>
-    
     </>
   )
 }
