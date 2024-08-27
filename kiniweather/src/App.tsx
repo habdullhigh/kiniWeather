@@ -1,11 +1,11 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import RightSidebar from './components/rightsideBar'
+import RightSidebar from './components/RightSidebar'
 import Tomorrow from './components/tomorrow'
 import Searchbar from './components/seachbar'
+import Sidebar from './components/Sidebar'
 
 function App() {
-  
 
   return (
     <>
