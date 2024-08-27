@@ -1,7 +1,6 @@
 .mainside {
     margin-left: 12%; 
-    margin-right: 22%;
-    
+    margin-right: 22%;  
 }
 
 .sbar {
@@ -31,11 +30,22 @@
     box-shadow: -2px 0 5px rgba(0,0,0,0.1);
 }
 
+.rightsidebar2 {
+    display: none;
+}
+
 .rightsidediv {
-    height: 15%;
+    height: 12%;
     border-bottom: 3px solid white;
     justify-content: center;
     align-items: center;
+}
+
+.rightsidediv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;       
 }
 
 .sidebar {
@@ -46,11 +56,97 @@
     width: 10%;   
     height: 100%;   
     padding: 20px;  
-    box-shadow: -2px 0 5px rgba(0,0,0,0.1);  
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
 }
 
 .sidediv {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.sidediv:hover {
+    transform: translateX(-15px);
+}
+
+.darkandlightmode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.tomorrowdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conditionsdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Media quary*/
+
+@media (max-width: 1216px) {
+    .tomorrowdiv {
+        border-right: 0.5px solid white;
+    }
+    .rightsidebar {
+        display: none;
+    }
+    .rightsidebar2 {
+        display: block;
+    }
+    .sidebar {
+        width: 18%;   
+    }
+    .mainside {
+        margin-left: 22%;
+        margin-right: 5%;
+    }
+}
+@media(max-width: 788px) {
+    .sidebarheading {
+        flex-direction: column;
+    }
+}
+@media(max-width: 690px) {
+    .tomorrowheading {
+        display: flex;
+        justify-content: center;
+    }
+    .tomdiv {
+        justify-content: center;
+    }
+    .tomorrowdiv {
+        border-left: 2px solid white;
+        border-right: 0.5px solid white;
+    }
+    .rightside2heading {
+        display: flex;
+        justify-content: center;
+    }
+    .rightside2 {
+        justify-content: center;
+    }
+}
+
+
+/* mobile veiw*/
+@media (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+    .mainside {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }

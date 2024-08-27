@@ -22,6 +22,9 @@ export default function Rightsidebar(){
       <div className="rightsidediv flex flex-row space-x-4">
         <p className="flex flex-row space-x-5">6days<img src="#" alt="smallIcon" /></p> <p>temp1</p>
       </div>
+      <div className="rightsidediv flex flex-row space-x-4">
+        <p className="flex flex-row space-x-5">7days<img src="#" alt="smallIcon" /></p> <p>temp1</p>
+      </div>
     </div>
     
 

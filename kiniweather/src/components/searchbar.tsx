@@ -21,11 +21,11 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
             <input
                 type="text"
                 value={searchTerm}
-                className='sbar rounded-full w-full py-[10px] border-white border-2 pl-3'
+                className='sbar text-black rounded-full w-full py-[10px] border-white pl-6'
                 onChange={handleInputChange}
-                placeholder="Location"
+                placeholder="Search for cities....."
             />
-            <button type="submit" className='rounded-full py-[10px] border-white border-2 px-3 hover:bg-white hover:text-black'>search</button>
+            <button type="submit" className='rounded-full py-[10px] border-[#AEB5CD] border-2 px-3 hover:bg-white hover:text-black'>search</button>
         </form>
     );
 };
